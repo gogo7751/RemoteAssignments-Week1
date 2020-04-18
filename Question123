@@ -1,0 +1,55 @@
+1. Try the statements below in REPL. Please answer that there are correct or not and explain the reasons. 
+
+a. val id = 9527 
+
+  正確,自動判斷id為Int 
+
+b. var number : Int = 5.6 
+
+  錯誤,Int是整數型態,要宣告number為Double或者刪除Int自動判斷 
+
+c. var title = "Hello Kotlin!" 
+
+  正確,自動判斷title為String 
+
+d. val content : String = null 
+
+  錯誤, 若content可能為null值,需要更改為String? 
+
+e. val number : Double? = 556.6 
+
+  正確,number可能為null 
+
+f. var list: List<String>? = listOf (null, null) 
+
+  錯誤,若list可能為null值,需要更改為String? 
+
+g. var list: List<String?>? = listOf ("Wayne", "Chen") 
+
+  正確,如果list可能為null值,故須加? 
+
+h. list.size 
+
+  正確,會計算出list有多少參數 
+
+i. list?.size 
+
+  如果list有null值則正確, 
+
+ 
+
+2. Read the code below, choose the correct answer and explain the reason. 
+
+  c. "Your grace." 
+
+  message的長度是39,所以條件符合in 1..39,會印出Your grace. 
+
+ 
+
+3. Read the code below, choose the correct answer and explain the reason. 
+
+  d. val array = Array(6) ​{ ​1000.0.pow(​it​) ​} 
+
+  units陣列共有6個參數,所以array陣列輸入6,要印出輸出的值可以用pow次方的功能,其中it代表是Array每次的值,用withIndex函數可以同時傳回索引值跟值,所以第一輪跑出bytes跟1000的0次方,第二輪跑出KB跟1000的1次方,以此類推 
+
+ 
