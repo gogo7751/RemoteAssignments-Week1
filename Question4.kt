@@ -6,7 +6,7 @@ class Human(val name: String){
     }
 }
 fun main() {
-    val human = Human("<the name passed in>").attack()
+    val human = Human("Lili").attack()
 }
 
 
