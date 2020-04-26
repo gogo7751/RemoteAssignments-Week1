@@ -14,6 +14,6 @@ class Mage(name: String): Human(name){
 }
 
 fun main() {
-    val mage = Mage("<the name passed in>")
+    val mage = Mage("E")
     mage.attack()
 }
