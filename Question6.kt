@@ -21,7 +21,7 @@ class Mage(name: String): Human(name){
 }
 
 fun main() {
-    val mage = Mage("<the name passed in>")
-    dval human = Human("<the name passed in>")
+    val mage = Mage("Eric")
+    val human = Human("Lili")
     human.manaCheck()
 }
